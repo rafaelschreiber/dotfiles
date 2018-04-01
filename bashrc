@@ -1,7 +1,5 @@
 # bashrc file written by Rafael Schreiber
 
-# building prompt
-
 # color codes
 red='\e[1;31m'
 green='\e[1;32m'
