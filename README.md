@@ -1,2 +1,3 @@
 # dotfiles
-My Personal Dotfiles
+
+My Personal Dotfiles. Have fun :)
