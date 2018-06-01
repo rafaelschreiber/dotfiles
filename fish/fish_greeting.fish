@@ -1,8 +1,8 @@
 function fish_greeting
     echo "yes" | history clear > /dev/null
     set PATH ~/.bin $PATH
-    set VISUAL (which micro)
-    set EDITOR (which micro)
+    export VISUAL=micro
+    export EDITOR=micro
     alias fucking="sudo"
     alias su="su -"
     alias edit="$VISUAL"    
