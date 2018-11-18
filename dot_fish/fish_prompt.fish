@@ -4,15 +4,9 @@ function fish_prompt
 	set_color -o white
 	if test $history[1] = "clear"
 		echo -n ""
-	else
-		echo ""
-	end
-	if test $history[1] = "celar"
+	else if test $history[1] = "celar"
 		echo -n ""
-	else
-		echo ""
-	end
-	if test $history[1] = "c"
+	else if test $history[1] = "c"
 		echo -n ""
 	else
 		echo ""
