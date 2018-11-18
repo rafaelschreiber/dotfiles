@@ -7,6 +7,16 @@ function fish_prompt
 	else
 		echo ""
 	end
+	if test $history[1] = "celar"
+		echo -n ""
+	else
+		echo ""
+	end
+	if test $history[1] = "c"
+		echo -n ""
+	else
+		echo ""
+	end
 	echo -n "╔ "
 	if test $error_code -eq 0
 		set_color -o green
