@@ -7,6 +7,7 @@ function fish_greeting
     
     alias fucking="sudo" # if i forget to write sudo
     alias su="su -" # if I type su I want a login shell
+    alias niggaplease="sudo !!" # lol
     # Because I'm too often too stupid to write clear
     alias celar="clear"
     alias c="clear"
