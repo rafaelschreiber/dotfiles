@@ -23,6 +23,5 @@ function fish_greeting
     echo "System Information:"
     neofetch --off --disable shell resolution de wm packages title term term_font underline cols line_break
     set_color -o cyan
-    echo ""
     echo "Welcome "$USER", I'm ready for your commands..."
 end
