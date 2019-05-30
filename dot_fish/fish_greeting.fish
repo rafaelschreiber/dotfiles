@@ -4,7 +4,10 @@ function fish_greeting
     # my preferred terminal editor is micro 
     export VISUAL=micro
     export EDITOR=micro
-    
+
+    alias ls="exa"
+    alias la="exa -al"
+    alias ll="exa -l"
     alias fucking="sudo" # if i forget to write sudo
     alias su="su -" # if I type su I want a login shell
     alias niggaplease="sudo !!" # lol
