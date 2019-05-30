@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
-echo "If errors occur, you can just ignore them"
-sleep 1
-mv $HOME/.config/fish/functions/fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish.bak
-mv $HOME/.config/fish/functions/fish_right_prompt.fish $HOME/.config/fish/functions/fish_right_prompt.fish.bak
-mv $HOME/.config/fish/functions/fish_greeting.fish $HOME/.config/fish/functions/fish_greeting.fish.bak
-mv $HOME/.config/fish/functions/sudo.fish $HOME/.config/fish/functions/sudo.fish.bak
+mv $HOME/.config/fish/functions/fish_prompt.fish $HOME/.config/fish/functions/fish_prompt.fish.bak 2>/dev/null
+mv $HOME/.config/fish/functions/fish_right_prompt.fish $HOME/.config/fish/functions/fish_right_prompt.fish.bak 2>/dev/null
+mv $HOME/.config/fish/functions/fish_greeting.fish $HOME/.config/fish/functions/fish_greeting.fish.bak 2>/dev/null
+mv $HOME/.config/fish/functions/sudo.fish $HOME/.config/fish/functions/sudo.fish.bak 2>/dev/null
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 mkdir -p $HOME/.config/fish/functions
